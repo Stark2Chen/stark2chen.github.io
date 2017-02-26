@@ -1,0 +1,35 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /tags/
+Allow: /categories/
+
+Disallow: /bloglog/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /gallery/
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Baiduspider-image
+Disallow: /
+
+User-agent: Baiduspider-video
+Disallow: /
+
+User-agent: Baiduspider-news
+Disallow: /
+
+User-agent: Baiduspider-favo
+Disallow: /
+
+User-agent: Baiduspider-cpro
+Disallow: /
+
+User-agent: Baiduspider-ads
+Disallow: /
+
+Sitemap: https://siocx.space/sitemap.xml
